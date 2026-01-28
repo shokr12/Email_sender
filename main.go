@@ -194,16 +194,6 @@ func main() {
 	smtpPassword := os.Getenv("SMTP_PASSWORD")
 	smtpFrom := os.Getenv("SMTP_FROM")
 
-	if smtpUsername == "" {
-		smtpUsername = "mshokr1dhdj@gmail.com"
-	}
-	if smtpPassword == "" {
-		smtpPassword = "tlyroaqxvgshtpnf"
-	}
-	if smtpFrom == "" {
-		smtpFrom = "mshokr1dhdj@gmail.com"
-	}
-
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"},
 		AllowedMethods: []string{
