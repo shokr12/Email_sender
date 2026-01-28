@@ -2,7 +2,6 @@
 
 A full-stack email sending service with a beautiful React frontend and robust Go backend. Send emails through SMTP with a modern, user-friendly interface.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Go Version](https://img.shields.io/badge/go-%3E%3D1.19-blue.svg)
 ![React Version](https://img.shields.io/badge/react-%5E18.0.0-blue.svg)
 
